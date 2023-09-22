@@ -8,7 +8,7 @@
 [“Russia”, “Denmark”, “Kazan”] → []*/
 
 string []str = {"1234", "1567", "-2", "computer science"};
-Console.WriteLine("[{0}]",string.Join(",",str),"]{0}");
+Console.WriteLine("[{0}]",string.Join(",",str));
 
 string[] r = ResultArray(str);
 Console.WriteLine("[{0}]",string.Join(",",r));
